@@ -1,0 +1,31 @@
+/* Styling for machine code display */
+.machine-code {
+  font-size: 1.2rem; /* Increase font size for better readability */
+  line-height: 1.6; /* Increase line height for spacing between lines */
+  background-color: #b8da5a; /* Light background color */
+  padding: 10px 20px 20px 20px; /* Reduced padding top, keep others the same */
+  border-radius: 25px;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  max-width: 50%; /* Reduce width of the block */
+  margin: 20px auto; /* Center the block horizontally and add top margin */
+}
+
+/* Center the heading */
+.machine-code h5 {
+  text-align: center; /* Center the heading */
+  font-size: 1.8rem; /* Increase the heading size */
+  margin-top: 5px; /* Reduce the top margin */
+  margin-bottom: 10px; /* Add space between heading and machine code */
+}
+
+/* Add a line separating each entry in machine code */
+.machine-code pre {
+  border-bottom: 1px solid #000000; /* Line separating each entry */
+  padding: 10px;
+  margin: 0;
+}
+
+/* Optional: Add some hover effects for better visual interaction */
+.machine-code pre:hover {
+  background-color: #f2b1b1; /* Light grey background when hovered */
+}

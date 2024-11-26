@@ -1,0 +1,37 @@
+/* Styling for the CodeEditor component */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto; /* Center the form group */
+    max-width: 80%; /* Adjust width as needed */
+  }
+  
+  /* Style for the label/heading */
+  .form-group label {
+    font-size: 1.2rem; /* Slightly larger font size */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 10px; /* Add space between the label and the textarea */
+    text-align: center; /* Center-align the label text */
+  }
+  
+  /* Styling for the textarea */
+  #codeEditor {
+    width: 1200px; /* Full width of the parent container */
+    height: 300px; /* Increase the height of the text editor */
+    font-size: 1.1rem; /* Increase font size for better readability */
+    line-height: 1.5; /* Improve line spacing */
+    padding: 15px; /* Add padding inside the textarea */
+    border-radius: 15px; /* Make the borders rounded */
+    border: 2px solid #4caf50; /* Green border for a better look */
+    background-color: #c3d5e8; /* Light background color */
+    resize: vertical; /* Allow vertical resizing only */
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  /* Focus styles for the textarea */
+  #codeEditor:focus {
+    border-color: #2e7d32; /* Darker green border on focus */
+    box-shadow: 0 0 8px rgba(46, 125, 50, 0.5); /* Add a subtle shadow on focus */
+  }
+  

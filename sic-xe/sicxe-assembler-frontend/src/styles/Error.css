@@ -1,0 +1,22 @@
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Ensure all content stays in the center if multiple errors exist */
+    padding: 20px;
+    border: 1px solid #dc3545; /* Optional: Adds a red border to match danger theme */
+    border-radius: 5px; /* Optional: Rounded corners */
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+  }
+  
+  .alert p {
+    margin: 0; /* Removes extra spacing around paragraphs */
+    font-size: 1.2em; /* Slightly larger font size */
+  }
+  
+  .alert p:first-child {
+    font-weight: bold; /* Bold for the first paragraph (No errors) */
+    font-size: 1.5em; /* Bigger font size for the "No errors" message */
+  }
+  

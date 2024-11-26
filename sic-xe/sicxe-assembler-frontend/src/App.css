@@ -1,0 +1,64 @@
+/* Set background color of the entire app */
+body {
+  background-color: #e7d974; /* Light yellow background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the "SIC/XE" heading and give it a neon glow */
+h1 {
+  text-align: center;
+  color: #000000;
+  font-size: 3rem;
+  margin-top: 45px;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 75px white;
+}
+
+/* Styling for the "Assemble Code" button */
+.btn-primary {
+  display: block; /* Makes the button a block element */
+  margin: 20px auto; /* Center the button with auto margins */
+  padding: 15px 30px; /* Increase padding for a larger button */
+  font-size: 1.3rem; /* Increase font size */
+  border-radius: 20px; /* Rounded corners */
+  border: 2px solid #ff0000; /* Red border color */
+  background-color: #cae3e5; /* Green background for contrast */
+  color: black; /* White text color */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #7fcd83; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Styling for other elements */
+h5 {
+  color: #333;
+}
+
+.table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.errors p {
+  color: #d9534f; /* Red color for error messages */
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
